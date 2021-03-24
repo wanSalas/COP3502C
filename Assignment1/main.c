@@ -249,5 +249,5 @@ void freeMemory(MONSTER **monsters,REGION **regions,TRAINER **trainers, int mons
     }
     free(monsters);
     free(regions);
-    free(trainers);
+    free(trainers);// this will work
 }
