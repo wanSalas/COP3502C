@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/wansa/OneDrive/Desktop/COP3502C/Assignment1/leak_detector_c.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+leak_detector_c.h
+C:/Users/wansa/OneDrive/Desktop/COP3502C/Assignment1/leak_detector_c.h
+
+C:/Users/wansa/OneDrive/Desktop/COP3502C/Assignment1/leak_detector_c.h
+
+C:/Users/wansa/OneDrive/Desktop/COP3502C/Assignment1/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+leak_detector_c.h
+C:/Users/wansa/OneDrive/Desktop/COP3502C/Assignment1/leak_detector_c.h
+
