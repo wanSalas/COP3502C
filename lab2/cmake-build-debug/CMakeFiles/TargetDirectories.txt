@@ -1,0 +1,3 @@
+C:/Users/wansa/OneDrive/Desktop/COP3502C/lab2/cmake-build-debug/CMakeFiles/lab2.dir
+C:/Users/wansa/OneDrive/Desktop/COP3502C/lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/wansa/OneDrive/Desktop/COP3502C/lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
