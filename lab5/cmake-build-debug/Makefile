@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wansa\OneDrive\Desktop\COP3502C\lab4
+CMAKE_SOURCE_DIR = C:\Users\wansa\OneDrive\Desktop\COP3502C\lab5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wansa\OneDrive\Desktop\COP3502C\lab4\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\wansa\OneDrive\Desktop\COP3502C\lab5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wansa\OneDrive\Desktop\COP3502C\lab4\cmake-build-debug\CMakeFiles C:\Users\wansa\OneDrive\Desktop\COP3502C\lab4\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wansa\OneDrive\Desktop\COP3502C\lab5\cmake-build-debug\CMakeFiles C:\Users\wansa\OneDrive\Desktop\COP3502C\lab5\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wansa\OneDrive\Desktop\COP3502C\lab4\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wansa\OneDrive\Desktop\COP3502C\lab5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,44 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab4
+# Target rules for targets named lab5
 
 # Build rule for target.
-lab4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab4
-.PHONY : lab4
+lab5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab5
+.PHONY : lab5
 
 # fast build rule for target.
-lab4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/build
-.PHONY : lab4/fast
-
-leak_detector_c.obj: leak_detector_c.c.obj
-
-.PHONY : leak_detector_c.obj
-
-# target to build an object file
-leak_detector_c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/leak_detector_c.c.obj
-.PHONY : leak_detector_c.c.obj
-
-leak_detector_c.i: leak_detector_c.c.i
-
-.PHONY : leak_detector_c.i
-
-# target to preprocess a source file
-leak_detector_c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/leak_detector_c.c.i
-.PHONY : leak_detector_c.c.i
-
-leak_detector_c.s: leak_detector_c.c.s
-
-.PHONY : leak_detector_c.s
-
-# target to generate assembly for a file
-leak_detector_c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/leak_detector_c.c.s
-.PHONY : leak_detector_c.c.s
+lab5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/build
+.PHONY : lab5/fast
 
 main.obj: main.c.obj
 
@@ -175,7 +148,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -184,7 +157,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -193,7 +166,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab4.dir\build.make CMakeFiles/lab4.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lab5.dir\build.make CMakeFiles/lab5.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -204,10 +177,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... lab4
-	@echo ... leak_detector_c.obj
-	@echo ... leak_detector_c.i
-	@echo ... leak_detector_c.s
+	@echo ... lab5
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

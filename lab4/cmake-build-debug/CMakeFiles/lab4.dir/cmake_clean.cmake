@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lab4.dir/leak_detector_c.c.obj"
   "CMakeFiles/lab4.dir/main.c.obj"
   "lab4.exe"
   "lab4.exe.manifest"

@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/wansa/OneDrive/Desktop/COP3502C/lab4/leak_detector_c.c">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/wansa/OneDrive/Desktop/COP3502C/lab4/leak_detector_c.h">
+			<Option target="lab4"/>
+		</Unit>
 		<Unit filename="C:/Users/wansa/OneDrive/Desktop/COP3502C/lab4/main.c">
 			<Option target="lab4"/>
 		</Unit>

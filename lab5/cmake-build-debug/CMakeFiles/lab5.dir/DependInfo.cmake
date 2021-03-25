@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/wansa/OneDrive/Desktop/COP3502C/lab4/leak_detector_c.c" "C:/Users/wansa/OneDrive/Desktop/COP3502C/lab4/cmake-build-debug/CMakeFiles/lab4.dir/leak_detector_c.c.obj"
-  "C:/Users/wansa/OneDrive/Desktop/COP3502C/lab4/main.c" "C:/Users/wansa/OneDrive/Desktop/COP3502C/lab4/cmake-build-debug/CMakeFiles/lab4.dir/main.c.obj"
+  "C:/Users/wansa/OneDrive/Desktop/COP3502C/lab5/main.c" "C:/Users/wansa/OneDrive/Desktop/COP3502C/lab5/cmake-build-debug/CMakeFiles/lab5.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
