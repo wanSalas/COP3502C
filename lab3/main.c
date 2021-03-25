@@ -8,7 +8,7 @@
 // index 0, then 1, etc. top will represent the index
 // to the top element in the stack. If the stack is
 // empty top will be -1.
-
+//
 #define SIZE 20
 #define EMPTY -1
 
